@@ -12,38 +12,53 @@
 
 .fixed-navbar-menu{
     display: flex;
- position: fixed;
-    width: 100%;
+
+ 
+    margin: auto;
+ 
     justify-content: center;
     align-items: center;
     align-content: center;
     visibility: hidden;
     background-color: whitesmoke;
-    z-index: 2;
-    
+   
+   z-index: 100;
  
   
+}
+.move_part{
+  z-index: 1;
 }
 
  @media screen and (max-width: 570px) {
     .container-layout{
 
         display: flex;
+        margin: auto;
         flex-direction: column;
     
     }
+    .menus-layout{
+      display: block;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+    }
 
     .button-closed{
+
         position: fixed;
         right: 20px;
-        z-index: 20;
+        z-index: 100;
 
 
     }
     .button-opened{
+
         position: fixed;
         right: 20px;
-        z-index: 20;
+        z-index: 100;
+
     }
     .line{
         width:1.6rem;
@@ -52,6 +67,7 @@
         margin-bottom: 3px;
         transform: rotate(0deg) ;
         transition: 0.2s ease-in;
+     
     }
     .line22{
         width:1.6rem;
@@ -62,7 +78,7 @@
     }
     @keyframes closed {
         from {right: 0%;}
-        to {right: 100%;}
+        to {right: 105%;}
       }
       @keyframes opened {
         from {right: 100%;}
@@ -75,18 +91,21 @@
     height: 100%;
     animation-name: opened ;
     animation-duration: 1s ;
-    z-index: 1;
+    z-index:60;
+    top:0;
   
     
   
     }
     .fixed-navbar-closed{
         position: absolute;
+        top:0;
         width: 100%;
         height: 100%;
         animation-name: closed;
         animation-duration: 1s;
-        right: 100%;
+        right: 105%;
+        z-index:60;
        
     }
     .fixed-navbar-closed-first{
@@ -94,6 +113,7 @@
         width: 100%;
         height: 100%;
         right: 100%;
+        top:0;
       
     }
     .fixed-navbar-menu{

@@ -32,7 +32,7 @@ const Layout =(props) =>{
    <div className='container-layout'>
 
 
-    
+  <div className='menus-layout'>
    <div className='fixed-navbar-menu'>
    <div onClick={open_close} className={props.button_class}>
               <div className='line1 line'></div>
@@ -44,6 +44,7 @@ const Layout =(props) =>{
      <div className={props.menu_class}>
         
      <Navbar/>
+     </div>
      </div>
    <div className='move-part'>
    {props.children}
