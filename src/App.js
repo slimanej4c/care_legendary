@@ -12,7 +12,7 @@ function App(props) {
     
  
    <Layout>
-     <AnimatePresence exitBeforeEnter>
+     <AnimatePresence mode='wait'>
     <Routes key={location.pathname} location={location}>
      <Route exact path='/care_legendary' element={<Home/>}></Route>
      <Route exact path='/contact' element={<Contact/>}></Route>

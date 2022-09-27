@@ -14,6 +14,7 @@ function Home() {
       <div className='home-part1'>
            <div  className='home-part1-image'>
                <h3>BIENVENUE CHEZ CAR LEGENDARY EXPERT EN VOITURE DE LUXE</h3>
+               
                <h2>Accompagnement en achat / vente <br/><br/> de vehicule haut de gamme sur <br/><br/> Monaco</h2>
            </div>
           
@@ -24,7 +25,7 @@ function Home() {
       </div>
            <motion.div className='home-part2' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{duration:1}}>
             <div className='home-part2-title'>
-                 <Animate x={"VOTRE VOITURE DE LUXE SUR-MESURE"} />
+                 <Animate x={"--- VOTRE VOITURE DE LUXE SUR-MESURE ---"} />
             </div>
    
             <div  className='home-part2-image'>

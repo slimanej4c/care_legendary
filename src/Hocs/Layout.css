@@ -13,7 +13,7 @@
   flex-direction: column;
   
 
-  z-index: -1;
+ 
 
 
 }
@@ -21,8 +21,8 @@
 
 .fixed-navbar-menu{
     display: flex;
-
- 
+    position: fixed;
+    width:100%;
     margin: auto;
  
     justify-content: center;
@@ -31,12 +31,12 @@
     visibility: hidden;
     background-color: whitesmoke;
    
-   z-index: 1000;
+   z-index: 10;
  
   
 }
 .move_part{
-  z-index: 1;
+z-index: 0;
 }
 
 .footer-part{
@@ -53,18 +53,14 @@
         flex-direction: column;
     
     }
-    .menus-layout{
-      display: block;
-      position: fixed;
-      width: 100%;
-      height: 100%;
-    }
+    
 
     .button-closed{
 
         position: fixed;
         right: 20px;
-        z-index: 100;
+        top:60px;
+        z-index: 20;
 
 
     }
@@ -72,7 +68,8 @@
 
         position: fixed;
         right: 20px;
-        z-index: 100;
+        top:60px;
+        z-index: 20;
 
     }
     .line{
@@ -101,39 +98,39 @@
       }
           
     .fixed-navbar{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     animation-name: opened ;
     animation-duration: 1s ;
-    z-index:60;
-    top:0;
+    z-index:15;
+    
   
     
   
     }
     .fixed-navbar-closed{
-        position: absolute;
-        top:0;
+        position: fixed;
+      
         width: 100%;
         height: 100%;
         animation-name: closed;
         animation-duration: 1s;
         right: 105%;
-        z-index:60;
+        z-index:15;
        
     }
     .fixed-navbar-closed-first{
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 100%;
         right: 100%;
-        top:0;
+    
       
     }
     .fixed-navbar-menu{
     visibility:visible;
-
+     
 
     }
     
@@ -161,4 +158,5 @@
         transform: rotate(-45deg) ;
         transition: 0.5s ease-in;
       }
+     
 }

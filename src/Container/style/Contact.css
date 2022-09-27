@@ -8,6 +8,9 @@
 
     margin-top: 100px;
     margin-bottom: 100px;
+    background-color: var(--grey);
+  
+  
 
 
 }
@@ -16,6 +19,7 @@
     display: flex;
     width: 100%;
     height: 50%;
+
 }
 .contact-top-left{
     display: flex;
@@ -48,19 +52,27 @@
 }
 .contact-div{
     width: 90%;
+  
     margin-bottom: 10px;
+   
+    
+
     
 }
 .contact-item{ 
-    box-shadow: 0px 1px 1px  1px var(--bg);
+
     width: 100%;
-    border: 0px;
+    
     height: 30px;
     border-radius: 5px;
+    border-color: var(--gold);
+   
+
 }
 .contact-message{
 
-    height: 200px;
+    height: 150px;
+    border-width: 2px;
 }
 
 .contact-line{
@@ -70,8 +82,9 @@
     background-color: var(--bg);
 }
 .contact-button{
-
-    background-color: var(--fg);
+    font-weight: bold;
+    font-family: broche;
+    background-color: var(--gold);
     border:0px ;
     height: 30px;
     border-radius: 5px;
@@ -84,9 +97,25 @@
     height: 300px;
 
 }
+.contact-cor{
+     
+   
+    font-family:broche;
+    color: rgb(0, 0, 0);
+  
+}
+
 
 
 @media screen and (max-width: 768px) {
+    
+.contact-container{
+   
+    
+    z-index:1;
+
+
+}
     .contact-top{
 
         flex-direction: column-reverse;
@@ -104,6 +133,7 @@
        
         width: 100%;
         justify-content: center;
+     
         
        
     }
@@ -125,7 +155,8 @@
     .contact-cor{
      
         position: relative;
-        left: -20%;
+        font-family:broche;
+        left: 0%;
     }
    
 

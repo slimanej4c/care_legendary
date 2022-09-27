@@ -35,23 +35,26 @@ const Layout =(props) =>{
   
   <Fragment>
    <div className='container-layout'>
-
-
-  <div className='menus-layout'>
    <div className='fixed-navbar-menu'>
-   <div onClick={open_close} className={props.button_class}>
+   
+   <Navbar_menu/>
+   
+     </div>
+     <div onClick={open_close} className={props.button_class}>
               <div className='line1 line'></div>
               <div className='line2 line22'></div>
               <div className='line3 line'></div>
    </div>
-   <Navbar_menu/>
-     </div>
-     <div className={props.menu_class}>
+ 
+   <div className={props.menu_class}>
         
-     <Navbar/>
-     </div>
-     </div>
-     <AnimatePage className='page-animate'>
+        <Navbar/>
+        </div>
+  
+   
+   
+    
+  
    <div className='move-part'>
     
    {props.children}
@@ -62,7 +65,7 @@ const Layout =(props) =>{
    <div className='footer-part'>
     <Footer/>
    </div>
-   </AnimatePage>
+ 
      </div>
     
       </Fragment>

@@ -6,8 +6,8 @@
     font-weight: bold;
     text-align: center;
     font-style: italic;
-    color:var(--gold);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(173, 84, 0);
+    font-family: imported;
    
 }
 
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 768px) {
   .h-test{
-    font-size: 1.2rem;
+    font-size:9px;
 
   }
 
@@ -56,14 +56,14 @@
 @media screen and (max-width: 550px) {
 
   .h-test{
-    font-size: 1rem;
+    font-size:9px;
 
   }
 }
 @media screen and (max-width: 390px) {
 
   .h-test{
-    font-size: 0.8rem;
+    font-size: 10px;
 
   }
 

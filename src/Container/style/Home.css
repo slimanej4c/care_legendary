@@ -19,7 +19,7 @@
 }
 .home-part2{
     display: flex;
-    margin-top: 10%;
+    margin-top: 25%;
     flex-direction: column;
     width: 100%;
     height: 100%;
@@ -152,8 +152,11 @@
    
     text-align: center;
     top:35%;
-    color: #f6d8aa;
+    color: #ffd900;
+    font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    
 }
 
 @media screen and (max-width: 570px) {
@@ -165,7 +168,8 @@
     }
     .home-part1-image h3{
 
-        font-size: 8px;
+        font-size: 9px;
+      
         
 
     }
