@@ -5,6 +5,14 @@ import './Navbar.css'
 import {connect} from 'react-redux'
 import { ChangeVarRedux } from '../redux/var_redux'
 function Navbar(props) {
+  const GoToPage=()=>{
+    props.ChangeVarRedux("button-opened",'fixed-navbar-closed')
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+  });
+ 
+  }
   return (
     <div className='nav-container'>
            <div className='nav-logo'>
@@ -13,27 +21,27 @@ function Navbar(props) {
        
             <ul className='nav-ul'>
             <Fragment>
-                <li className='nav-item'  onClick={()=>props.ChangeVarRedux("button-opened",'fixed-navbar-closed')}>
-                <NavLink className="nav-link" to="/accueill" >ACCUEILL</NavLink>
+                <li className='nav-item'  onClick={()=>GoToPage()}>
+                <NavLink className="nav-link" to="/care_legendary" >ACCUEILL</NavLink>
                
                 </li>
                 <li className='nav-item'  onClick={null}>
                 <NavLink className="nav-link" to="/aprops">QUI SOMMES-NOUS ?</NavLink>
                 </li>
                 <li className='nav-item'  onClick={null}>
-                <NavLink className="nav-link" to="/contact">NOS PRESTATIONS</NavLink>
+                <NavLink className="nav-link" to="/#">NOS PRESTATIONS</NavLink>
                 </li>
                 <li className='nav-item'  onClick={null}>
-                <NavLink className="nav-link" to="/experience">IMPORTATION DE VEHICULES</NavLink>
+                <NavLink className="nav-link" to="/#">IMPORTATION DE VEHICULES</NavLink>
                 </li>
                 <li className='nav-item'  onClick={null}>
-                <NavLink className="nav-link" to="/experience">NOS VEHICULES</NavLink>
+                <NavLink className="nav-link" to="/#">NOS VEHICULES</NavLink>
                 </li>
                 <li className='nav-item'  onClick={null}>
-                <NavLink className="nav-link" to="/experience">NOS  VEHICULES LIVRES </NavLink>
+                <NavLink className="nav-link" to="/#">NOS  VEHICULES LIVRES </NavLink>
                 </li>
-                <li className='nav-item'  onClick={null}>
-                <NavLink className="nav-link" to="/experience">NOUS CONTACTER </NavLink>
+                <li className='nav-item'  onClick={()=>GoToPage()}>
+                <NavLink className="nav-link" to="/contact">NOUS CONTACTER </NavLink>
                 </li>
             </Fragment>
             </ul>

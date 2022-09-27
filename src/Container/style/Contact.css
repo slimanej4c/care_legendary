@@ -1,0 +1,139 @@
+
+
+.contact-container{
+   
+    
+    width: 100%;
+    height: 100%;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+.contact-top{
+
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.contact-top-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 100%;
+   
+}
+.contact-top-right{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    justify-content: left;
+    
+    margin-left: 5%;
+    height: 100%;
+  
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.contact-div{
+    width: 90%;
+    margin-bottom: 10px;
+    
+}
+.contact-item{ 
+    box-shadow: 0px 1px 1px  1px var(--bg);
+    width: 100%;
+    border: 0px;
+    height: 30px;
+    border-radius: 5px;
+}
+.contact-message{
+
+    height: 200px;
+}
+
+.contact-line{
+
+    width: 1px;
+    height: 400px;
+    background-color: var(--bg);
+}
+.contact-button{
+
+    background-color: var(--fg);
+    border:0px ;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 1px var(--bg);
+}
+.contact-map{
+   
+    right:50px;
+    width: 500px;
+    height: 300px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-top{
+
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-line{
+
+        width: 100%;
+        height: 0.5px;
+        margin-top: 20px;
+        background-color: var(--bg);
+    }
+    .contact-top-left{
+       
+        width: 100%;
+        justify-content: center;
+        
+       
+    }
+    .contact-top-right{
+        
+        width:100%;
+        margin-right: 0%;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .contact-map{
+   
+       
+        width:80%;
+        height: 300px;
+    
+    }
+    .contact-cor{
+     
+        position: relative;
+        left: -20%;
+    }
+   
+
+}
+@media screen and (max-width: 600px) {
+    
+
+}
+@media screen and (max-width: 500px) {
+    
+}

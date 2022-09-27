@@ -1,14 +1,20 @@
 import React from 'react'
 import './style/Home.css'
 import Animate from './style/Animate'
+import AnimatePage from './AnimatePage'
+import { motion  } from 'framer-motion';
 function Home() {
+     console.log('hight scrol',     document.documentElement.scrollHeight ,
+     document.documentElement.clientHeight ,window.pageYOffset)
+     
   return (
+    <AnimatePage>
     <div className='home-container'>
+
       <div className='home-part1'>
            <div  className='home-part1-image'>
-            <h3>BIENVENUE CHEZ CAR LEGENDARY EXPERT EN VOITURE DE LUXE</h3>
-            <h2>Accompagnement en achat / vente <br/><br/> de vehicule haut de gamme sur <br/><br/> Monaco</h2>
-
+               <h3>BIENVENUE CHEZ CAR LEGENDARY EXPERT EN VOITURE DE LUXE</h3>
+               <h2>Accompagnement en achat / vente <br/><br/> de vehicule haut de gamme sur <br/><br/> Monaco</h2>
            </div>
           
            <div>
@@ -16,7 +22,7 @@ function Home() {
           
            </div>
       </div>
-           <div className='home-part2'>
+           <motion.div className='home-part2' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{duration:1}}>
             <div className='home-part2-title'>
                  <Animate x={"VOTRE VOITURE DE LUXE SUR-MESURE"} />
             </div>
@@ -25,7 +31,7 @@ function Home() {
                     
            
                </div>
-               <div className='home-part2-text'>
+               <motion.div className='home-part2-text' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{duration:1.5}}>
                       
 
                         <h2>CAR LEGENDARY MONACO </h2>
@@ -37,12 +43,13 @@ function Home() {
                                   savoir-faire et du génie humain, la voiture est bien plus qu’un moyen pour se déplacer, c’est 
                                   l’extension de sa personnalité, celui de son propriétaire.
                               </p>
-                  </div>
+                  </motion.div>
                 
-           </div>
+           </motion.div>
            
-      
+       
       </div>
+      </AnimatePage>
   )
 }
 

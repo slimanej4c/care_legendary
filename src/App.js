@@ -1,21 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
 import {Route ,Routes ,BrowserRouter} from 'react-router-dom'
+import { motion , AnimatePresence  } from 'framer-motion';
 import Layout from './Hocs/Layout';
 import Home from './Container/Home';
-function App() {
+import {useLocation} from "react-router"
+import Contact from './Container/Contact'
+function App(props) {
+  const location=useLocation()
   return (
-    <BrowserRouter>
+    
  
    <Layout>
-    <Routes >
-     <Route exact path='/accueill' element={<Home/>}></Route>
+     <AnimatePresence exitBeforeEnter>
+    <Routes key={location.pathname} location={location}>
+     <Route exact path='/care_legendary' element={<Home/>}></Route>
+     <Route exact path='/contact' element={<Contact/>}></Route>
     
     
     </Routes>
-
+    </AnimatePresence>
    </Layout>
-   </BrowserRouter>
+   
   );
 }
 

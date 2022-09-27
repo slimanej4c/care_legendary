@@ -3,12 +3,15 @@ import React, { Component , Fragment ,useState,useEffect} from 'react'
 
 import Navbar from '../Component/Navbar'
 import Navbar_menu from '../Component/Navbar_menu'
+import Footer from '../Component/Footer'
 import { connect } from 'react-redux'
 import { ChangeVarRedux } from '../redux/var_redux'
+import AnimatePage from '../Container/AnimatePage'
 import './Layout.css'
+
 const Layout =(props) =>{
   
-
+ 
    const open_close=()=>{
     if(props.button_class==="button-closed"){
      
@@ -24,7 +27,9 @@ const Layout =(props) =>{
    }
    useEffect(() => {
 
-
+    
+     
+    
    },[props.button_class])
     return (
   
@@ -46,12 +51,20 @@ const Layout =(props) =>{
      <Navbar/>
      </div>
      </div>
+     <AnimatePage className='page-animate'>
    <div className='move-part'>
+    
    {props.children}
+ 
 
    </div>
- 
+
+   <div className='footer-part'>
+    <Footer/>
+   </div>
+   </AnimatePage>
      </div>
+    
       </Fragment>
      
 
