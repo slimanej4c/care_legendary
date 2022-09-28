@@ -6,6 +6,8 @@ import Layout from './Hocs/Layout';
 import Home from './Container/Home';
 import {useLocation} from "react-router"
 import Contact from './Container/Contact'
+import Aprops from './Container/Aprops';
+import Prestation from './Container/Prestation';
 function App(props) {
   const location=useLocation()
   return (
@@ -16,6 +18,8 @@ function App(props) {
     <Routes key={location.pathname} location={location}>
      <Route exact path='/care_legendary' element={<Home/>}></Route>
      <Route exact path='/contact' element={<Contact/>}></Route>
+     <Route exact path='/apropos' element={<Aprops/>}></Route>
+     <Route exact path='/prestation' element={<Prestation/>}></Route>
     
     
     </Routes>

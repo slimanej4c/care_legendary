@@ -13,6 +13,8 @@ function Home() {
 
       <div className='home-part1'>
            <div  className='home-part1-image'>
+           <Animate x={"--- VOTRE VOITURE DE LUXE SUR-MESURE ---"} />
+
                <h3>BIENVENUE CHEZ CAR LEGENDARY EXPERT EN VOITURE DE LUXE</h3>
                
                <h2>Accompagnement en achat / vente <br/><br/> de vehicule haut de gamme sur <br/><br/> Monaco</h2>

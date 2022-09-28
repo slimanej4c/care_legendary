@@ -55,13 +55,13 @@ const Layout =(props) =>{
    
     
   
+       
    <div className='move-part'>
-    
-   {props.children}
- 
+    {props.children}
+
 
    </div>
-
+  
    <div className='footer-part'>
     <Footer/>
    </div>
