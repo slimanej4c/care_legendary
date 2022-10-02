@@ -19,7 +19,7 @@ function Home() {
                <h3>BIENVENUE CHEZ <br/> CAR LEGENDARY EXPERT EN VOITURE  DE LUXE</h3>
                
               
-               <h2>ACCOMPAGNEMENT EN ACHAT / VANTE <br/>DE VEHICULE HAUT DE GAMME SUR <br/> MONACO</h2>
+               <h2>ACCOMPAGNEMENT EN ACHAT / VENTE <br/>DE VEHICULE HAUT DE GAMME SUR <br/> MONACO</h2>
                <div className='home-part1-div'>
 
                </div>

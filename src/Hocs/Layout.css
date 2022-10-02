@@ -9,42 +9,9 @@
   align-items: center;
   align-content: center;
 
-  top: 5%;
+  top: 10%;
+  background-color: aqua;
  z-index: 10;
-}
- .fixed-navbar {
-  position: relative;
-  width:100%;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
- 
-  top: 5%;
- z-index: 10;
-}
- .fixed-navbar-closed{
-  position: relative;
-  width:100%;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
- 
-  top: 5%;
- z-index: 10;
-}
-
-
-
-
-.page-animate{
-  
-  display: flex;
-  flex-direction: column;
-  
-
- 
-
-
 }
 
 .contact-layout-show{
@@ -58,7 +25,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-
+  
   z-index: 11;
 
 }
@@ -88,9 +55,45 @@
 }
 .contact-layout-div h4{
   color: rgb(30, 30, 30);
-  font-size: 12px;
+  font-size: 20px;
   font-family: imported;
+ 
 }
+ .fixed-navbar {
+  position: relative;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ 
+  top: 20%;
+ z-index: 10;
+}
+ .fixed-navbar-closed{
+  position: relative;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ 
+  top: 20%;
+ z-index: 10;
+}
+
+
+
+
+.page-animate{
+  
+  display: flex;
+  flex-direction: column;
+  
+
+ 
+
+
+}
+
 @keyframes nav_mobile_anim {
   from {top: -20%;}
   to {top: 0%;}
@@ -154,6 +157,9 @@ z-index: 0;
     .contact-layout-hidden{
 
       height: 9rem;
+    }
+    .contact-layout-div h4{
+          font-size: 14px;
     }
     
     .button-closed{
