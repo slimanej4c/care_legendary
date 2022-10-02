@@ -2,6 +2,7 @@
 
 export const CHANGE_BUTTON_REQUEST= 'CHANGE_BUTTON_REQUEST'
 export const CHANGE_MENU_REQUEST= 'CHANGE_MENU_REQUEST'
+export const CHANGE_TOP_REQUEST= 'CHANGE_TOP_REQUEST'
 
   
 
@@ -16,7 +17,15 @@ export const ChangeVarRedux = (button,menu) => async dispatch => {
   
   };
 
-
+export const ChangeTopRedux = () => async dispatch => {
+      
+    
+    dispatch( ChangeTopRequest())
+   
+      
+   
+   
+   };
 
   export const ChangeButtonRequest = (button) => {
     return {
@@ -25,10 +34,17 @@ export const ChangeVarRedux = (button,menu) => async dispatch => {
   
     }
   }
+  export const ChangeTopRequest = () => {
+    return {
+      type: CHANGE_TOP_REQUEST ,
+    
+  
+    }
+  }
   export const ChangeMenuRequest = (menu) => {
     return {
       type: CHANGE_MENU_REQUEST ,
-      set_menu_class:menu,
+      set_menu_class:menu ,
   
     }
   }
@@ -36,6 +52,7 @@ export const ChangeVarRedux = (button,menu) => async dispatch => {
      
     button_class: "button-opened",
     menu_class:"fixed-navbar-closed-first",
+    top:'5%'
   
   
   
@@ -61,6 +78,12 @@ export const ChangeVarRedux = (button,menu) => async dispatch => {
       case CHANGE_MENU_REQUEST: return {
         ...state,
        menu_class:action.set_menu_class,
+      
+  
+      }
+      case CHANGE_TOP_REQUEST: return {
+        ...state,
+      top:'0%',
       
   
       }

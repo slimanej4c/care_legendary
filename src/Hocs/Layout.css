@@ -2,7 +2,36 @@
 
 
 
+.fixed-navbar-closed-first {
+  position: relative;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 
+  top: 5%;
+ z-index: 10;
+}
+ .fixed-navbar {
+  position: relative;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ 
+  top: 5%;
+ z-index: 10;
+}
+ .fixed-navbar-closed{
+  position: relative;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ 
+  top: 5%;
+ z-index: 10;
+}
 
 
 
@@ -18,22 +47,85 @@
 
 }
 
+.contact-layout-show{
 
-.fixed-navbar-menu{
+  
+  width: 100%;
+ 
+  height: 3rem;
+  background-color: rgb(150, 150, 150);
+  top: 0%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  z-index: 11;
+
+}
+.contact-layout-hidden{
+
+  
+  width: 100%;
+ 
+  height: 3rem;
+  background-color: rgb(149, 143, 109);
+  top: 0%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  z-index: 11;
+
+}
+.contact-layout-div{
+  display: flex;
+  width:100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.contact-layout-div h4{
+  color: rgb(30, 30, 30);
+  font-size: 12px;
+  font-family: imported;
+}
+@keyframes nav_mobile_anim {
+  from {top: -20%;}
+  to {top: 0%;}
+}
+
+.fixed-navbar-menu-mobile{
     display: flex;
     position: fixed;
     width:100%;
-    margin: auto;
- 
+
+   
     justify-content: center;
     align-items: center;
     align-content: center;
     visibility: hidden;
-    background-color: whitesmoke;
-   
+    background-color: rgb(226, 224, 224);
+   animation-name: nav_mobile_anim;
+   animation-duration: 0.5s;
    z-index: 10;
  
-  
+}
+.move-navbar-menu-mobile{
+  display: flex;
+
+  width:100%;
+ 
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  visibility: hidden;
+  background-color: rgb(226, 224, 224);
+ 
+ z-index: 10;
+
 }
 .move_part{
 z-index: 0;
@@ -53,8 +145,17 @@ z-index: 0;
         flex-direction: column;
     
     }
-    
 
+    .contact-layout-show{
+
+      height: 2.5rem;
+    }
+    
+    .contact-layout-hidden{
+
+      height: 9rem;
+    }
+    
     .button-closed{
 
         position: fixed;
@@ -104,6 +205,7 @@ z-index: 0;
     animation-name: opened ;
     animation-duration: 1s ;
     z-index:15;
+    top: -10%;
     
   
     
@@ -117,6 +219,8 @@ z-index: 0;
         animation-name: closed;
         animation-duration: 1s;
         right: 105%;
+        top: -5%;
+
         z-index:15;
        
     }
@@ -125,14 +229,20 @@ z-index: 0;
         width: 100%;
         height: 100%;
         right: 100%;
+        top: -5%;
     
       
     }
-    .fixed-navbar-menu{
+    .fixed-navbar-menu-mobile{
     visibility:visible;
      
 
     }
+    .move-navbar-menu-mobile{
+      visibility:visible;
+    
+  
+      }
     
      .button-closed .line1 {
         position: absolute;

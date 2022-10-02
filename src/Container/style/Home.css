@@ -9,6 +9,27 @@
     background-color:var(--grey);
     
 }
+.home-container h2{
+ 
+    text-align: center;
+ 
+ 
+    font-size: 24px;
+    font-family: imported;
+    
+        
+    background-image: linear-gradient(45deg, rgb(255, 255, 255),rgb(242, 205, 154), rgb(255, 203, 125),rgb(255, 128, 0), #ffffff,var(--gold),#ffb700,var(--gold), #ffc802,#a98400, rgb(156, 94, 0));
+   
+    animation: ored 12s alternate-reverse infinite;
+  
+    background-size: 400% 400%;
+    background-position: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  
+}
 
 .home-part1{
    
@@ -19,7 +40,7 @@
 }
 .home-part2{
     display: flex;
-    margin-top: 25%;
+ 
     flex-direction: column;
     width: 100%;
     height: 100%;
@@ -35,15 +56,60 @@
         justify-content: center;
         align-content: center;
         width: 100%;
-        height:35rem;
-        background-image: url('../../Assets/images/home1.jpg');
+        height:45rem;
+        background-image: url('../../Assets/images/bureau/home111.jpg');
         background-position: center;
         
         background-size: cover;
         background-repeat: no-repeat;
-        margin-top: 20%;
+      
         background-position: top;
         object-fit: cover;
+}
+
+.home-part1-image h2{
+  
+    text-align: center;
+  
+    font-size: 40px;
+ 
+    margin-top: 45%;
+    font-weight: bold;
+   
+    font-family: imported;
+    
+        
+    background-image: linear-gradient(45deg, rgb(255, 255, 255),rgb(211, 192, 166), rgb(255, 203, 125),rgb(255, 255, 255), #ffffff,var(--gold),#7a5a00,var(--gold), #dfdecb,#eaeaea, rgb(213, 196, 171));
+     
+    animation: ored 6s alternate-reverse infinite;
+  
+    background-size: 400% 400%;
+    background-position: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  
+  
+  
+
+  
+}
+.home-part1-image h3{
+    
+    
+   
+    text-align: center;
+    font-size: 45px;
+    margin-top: -50%;
+    color: rgb(43, 43, 43);
+    opacity: 1;
+    text-shadow:0.5px 0.5px  #ffffff;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+    
 }
 
 .home-part2-image{
@@ -76,13 +142,13 @@
 }
 .home-part2-text h2{
     text-align: center;
-    top:40%;
+   
  
     font-size: 16px;
     font-family: imported;
     
         
-    background-image: linear-gradient(45deg, rgb(168, 98, 0),rgb(255, 149, 0), rgb(255, 149, 0),rgb(255, 149, 0), #bab700,var(--gold),#7a5a00,var(--gold), #fffb04,#c2bf00, rgb(255, 149, 0));
+    background-image: linear-gradient(45deg, rgb(115, 102, 85),rgb(211, 192, 166), rgb(113, 109, 103),rgb(37, 22, 0), #6b6900,var(--gold),#7a5a00,var(--gold), #434101,#363500, rgb(133, 101, 56));
    
     animation: ored 10s alternate-reverse infinite;
   
@@ -99,7 +165,7 @@
     text-align: center;
     
  
-    font-size: 11px;
+    font-size: 20px;
     
     font-family:broche;
     color: #503800;
@@ -124,54 +190,76 @@
         from {background-position: 0%;}
         to {background-position: 100%;}
       }
-.home-part1-image h2{
- 
-    text-align: center;
-    margin-top:20%;
- 
-    font-size: 20px;
-    font-family: imported;
-    
-        
-    background-image: linear-gradient(45deg, rgb(168, 98, 0),rgb(255, 149, 0), rgb(255, 149, 0),rgb(255, 149, 0), #fffb04,var(--gold),#7a5a00,var(--gold), #fffb04,#c2bf00, rgb(255, 149, 0));
-   
-    animation: ored 4s alternate-reverse infinite;
-  
-    background-size: 400% 400%;
-    background-position: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-  
 
-  
-}
-.home-part1-image h3{
 
-   
-    text-align: center;
-    margin-top:20%;
-    color: #fff9d4;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
-    
-}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 570px) {
+    
+
+
+
+.home-part2{
+   
+    margin-top: 25%;
+}
+.home-part1-image{
+        height:35rem;
+}
+
+.home-part2-image{
+   
+    height: 15rem;
+}
+
+.home-part2-text{
+
+    background-position: bottom;
+  
+}
+.home-part2-text h2{
+   
+    font-size: 16px;
+    
+}
+.home-part2-text p{
+    
+    font-size: 15px;
+    margin-top: -3%;
+    margin-left: 8px;
+    margin-right: 8px;
+ 
+}
 
     .home-part1-image h2{
-
-        font-size: 14px;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 70%;
+       
        
     }
     .home-part1-image h3{
-
-        font-size: 9px;
-      
-        
+        position: absolute;
+        font-size: 20px;
+        margin-top: -90%;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-weight: bold;
 
     }
+    .home-part1-image{
 
+       
+        background-image: url('../../Assets/images/mobile/home111.jpg');
+       
+}
+
+  
 }
