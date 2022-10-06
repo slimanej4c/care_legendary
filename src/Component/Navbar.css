@@ -12,7 +12,7 @@
 .nav-container{
     display: flex;
     background-color:var(--bg_nav) ;
-
+    
     align-items: center;
     justify-content: space-between;
     align-content: center;

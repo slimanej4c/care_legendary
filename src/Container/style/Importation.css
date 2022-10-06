@@ -1,0 +1,371 @@
+.impo-container{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.impo-part1{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.impo-part1-image{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height:35rem;
+    background-image: url('../../Assets/images/bureau/impo1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+    background-position: top;
+    object-fit: cover;
+
+}
+.impo-part1-image-filtre{
+
+
+}
+.impo-part1-image h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: imported; 
+    background-image: linear-gradient(45deg, rgb(255, 255, 255),rgb(242, 205, 154), rgb(255, 203, 125),rgb(255, 128, 0), #ffffff,var(--gold),#ffb700,var(--gold), #ffc802,#a98400, rgb(156, 94, 0));
+    animation: ored 12s alternate-reverse infinite;
+    background-size: 400% 400%;
+    background-position: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.impo-part1-image h3 {
+    text-align: center;
+ 
+    color: #151100;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.impo-part2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.impo-part2-image{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 45%;
+    height:35rem;
+    background-image: url('../../Assets/images/bureau/impo2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+    background-position: top;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-right: 2%;
+
+
+}
+.impo-part2-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-right: 5%;
+}
+.impo-part2-description p{
+    
+    color: #151100;
+    font-size: 16;
+    font-family: broche;
+}
+.impo-part3{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #151100;
+    width: 90%;
+    margin: 1%;
+    margin-top: 10%;
+    border-radius: 30px;
+    height: 65rem;
+}
+
+.impo-part3-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.impo-part3-title h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: imported; 
+    background-image: linear-gradient(45deg, rgb(255, 255, 255),rgb(242, 205, 154), rgb(255, 203, 125),rgb(255, 128, 0), #ffffff,var(--gold),#ffb700,var(--gold), #ffc802,#a98400, rgb(156, 94, 0));
+    animation: ored 12s alternate-reverse infinite;
+    background-size: 400% 400%;
+    background-position: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.impo-part3-title h3 {
+    text-align: center;
+ 
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.impo-part3-packs{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.impo-part3-pack h1{
+    
+}
+.impo-part3-pack h3{
+    
+}
+
+.impo-part3-pack{
+    display: flex;
+    flex-direction: column;
+  
+    
+    align-items: center;
+
+    background-color: #ffc802;
+    width: 90%;
+    height: 50rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 20px;
+}
+.impo-part3-pack-title{
+    
+}
+.impo-part3-pack-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+  
+
+}
+
+.impo-part4{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.impo-part4-title{
+
+
+}
+.impo-part4-title h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: imported; 
+    background-image: linear-gradient(45deg, rgb(255, 255, 255),rgb(242, 205, 154), rgb(255, 203, 125),rgb(255, 128, 0), #ffffff,var(--gold),#ffb700,var(--gold), #ffc802,#a98400, rgb(156, 94, 0));
+    animation: ored 12s alternate-reverse infinite;
+    background-size: 400% 400%;
+    background-position: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
+    
+}
+.impo-part4-description p{
+    color: #151100;
+    text-align: center;
+    font-size: 16;
+    font-family: broche;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.impo-nav-link{
+
+   text-decoration: none;
+   color: #ffffff;
+   height: auto;
+    
+}
+.impo-nav-item{
+    display: flex;
+    justify-content: center;
+    background-color: #151100;
+    margin-top: 3%;
+    height: 2rem;
+    width: 15rem;
+    padding-top: 1rem;
+    border-radius: 12px;
+
+
+}
+
+@media screen and (max-width: 570px) {
+
+    .impo-part1{
+
+        
+    }
+    .impo-part1-image{
+        
+        height:30rem;
+        background-image: url('../../Assets/images/mobile/impo1.jpg');
+       
+    
+    }
+    .impo-part1-image-filtre{
+    
+    
+    }
+    .impo-part1-image h2 {
+      
+        font-size: 24px;
+       
+    }
+    .impo-part1-image h3 {
+        text-align: center;
+     
+        color: #151100;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .impo-part2{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .impo-part2-image{
+      
+        
+        width: 90%;
+        height:30rem;
+        background-image: url('../../Assets/images/mobile/impo2.jpg');
+       
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    
+    }
+    .impo-part2-description{
+       
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .impo-part2-description p{
+        text-align: center;
+        color: #151100;
+        font-size: 16;
+        font-family: broche;
+    }
+    .impo-part3{
+    
+      
+        flex-direction: column;
+       
+        width: 90%;
+       
+        height: 175rem;
+    }
+    
+    .impo-part3-title{
+       
+    }
+    .impo-part3-title h2{
+       
+    }
+    .impo-part3-title h3 {
+      
+    }
+    
+    .impo-part3-packs{
+      
+        flex-direction: column;
+        
+    }
+    .impo-part3-pack h1{
+        
+    }
+    .impo-part3-pack h3{
+        
+    }
+    
+    .impo-part3-pack{
+       
+        width: 90%;
+        height: 52rem;
+        margin-bottom: 2%;
+     
+    }
+    .impo-part3-pack-title{
+        
+    }
+    .impo-part3-pack-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2em;
+      
+    
+    }
+    
+    .impo-part4{
+    
+       
+    }
+    
+    .impo-part4-title{
+    
+    
+    }
+    .impo-part4-title h2{
+       
+    
+        
+    }
+    .impo-part4-description p{
+        margin-right: 5%;
+        margin-left: 5%;
+    
+    }
+
+
+
+}

@@ -10,7 +10,7 @@ function Aprops() {
                     <div  className='aprops-part1-image'>
                         <h3>CARLEGENDARY.COM</h3>
                         
-                        <h2>Car Legendary  <br/>Monaco votre <br/> partenaire  <br/>automobile</h2>
+                        <h2>Car Legendary  Monaco votre <br/> partenaire  automobile</h2>
                     </div>
 
                     
@@ -21,7 +21,7 @@ function Aprops() {
             <div className='aprops-part2'>
                 <h3>--- À PROPOS ---</h3>
                 <h2>A PROPOS DE CAR LEGENDARY</h2>
-                <p className='p_noir'>
+                <p >
                 Parfois, quand une offre est simplement trop belle,
                  la première question à poser à cet interlocuteur trop
                   parfait pour être vrai est «Qui êtes-vous» ? Qui sommes-nous, 
@@ -38,10 +38,11 @@ function Aprops() {
 
             <div className='aprops-part3'>
                     <div  className='aprops-part3-image'>
+                        <div className='aprops-part3-image-filtre'>
                         <h3>LES PLUS GRANDES MARQUES</h3>
                         
                         <h2>VEHICULES HAUT DE <br/>GAMME</h2>
-                        <p className='p_blanc'>
+                        <p >
                         En tant que prestataire en achat / vente de véhicules sur Monaco,
                          nous agissons pour votre compte afin de satisfaire vos besoins.
                           Vous n’avez qu’un vœu à accomplir en matière automobile et, 
@@ -63,11 +64,12 @@ function Aprops() {
 
 
                         </p>
-
+                        <br/>
+                        <br/>
                         <h3>CAR LEGENDARY MONACO</h3>
                         <h2>VOTRE PARTENAIRE <br/> AUTOMOBILE</h2>
 
-                        <p className='p_blanc'>Si vous imaginez qu’un intermédiaire n’est qu’une somme supplémentaire 
+                        <p >Si vous imaginez qu’un intermédiaire n’est qu’une somme supplémentaire 
                             et dispensable à ajouter à l’achat de votre voiture, alors, vous faites erreur. 
                             Car, non-content de rechercher et même vous livrer la voiture de vos rêves,
                              Car Legendary Monaco se fait fort de négocier pour vous les meilleurs prix au
@@ -87,7 +89,7 @@ function Aprops() {
                               on les soigne en faisant appel à ceux qui se trouvent les mieux disposés 
                               à les réaliser.</p>
 
-                              <p className='p_blanc'>
+                              <p >
                               Les services d’un prestaire automobile, d’autant plus quand il est question
                                de voiture de luxe, est un avantage dont il ne faut en aucun cas se priver.
                                 Ceux-ci constituent l’assurance d’un travail bien fait et vous garantissent
@@ -98,38 +100,41 @@ function Aprops() {
                               </p>
                     </div>
 
-               
+                    </div>
             
             </div>
 
             <div className='aprops-part4'>
                     <div  className='aprops-part4-image'>
-                        <h3>PRESTATION CLE EN MAIN</h3>
-                        
-                        <h2>LA LIVRAISON A  <br/>DOMICILE DE VOTRE  <br/> VEHICULE</h2>
-                        <p className='p_blanc'>Le professionnalisme, c’est aussi savoir s’effacer au profit de son client afin que celui-ci ne soit pas encombré d’aléas gênants. 
-                            Ce qui se dit chez Car Legendary Monaco reste chez Car Legendary Monaco. Le luxe, même en terme de voiture, implique des engagements 
-                            de notre personnel, un devoir de discrétion.Ces démarches que nous effectuons pour votre compte, toutes les négociations et tractations
-                             opérées afin que vous puissiez tenir le volant de la voiture de vos rêves, tout cela et plus encore ne seront des informations partagées
-                              qu’entre vous et Car Legendary Monaco. La discrétion, comme notre efficacité et notre marque de fabrique. Et, vous vous en rendrez très 
-                              vite compte en ce qui nous concerne, l’image de marque, dans notre entreprise, est primordiale.
+                            <div className='aprops-part4-image-filtre'> 
+                                  <h3>PRESTATION CLE EN MAIN</h3>
+                                  
+                                  <h2>LA LIVRAISON A  <br/>DOMICILE DE VOTRE  <br/> VEHICULE</h2>
+                                  <p >Le professionnalisme, c’est aussi savoir s’effacer au profit de son client afin que celui-ci ne soit pas encombré d’aléas gênants. 
+                                      Ce qui se dit chez Car Legendary Monaco reste chez Car Legendary Monaco. Le luxe, même en terme de voiture, implique des engagements 
+                                      de notre personnel, un devoir de discrétion.Ces démarches que nous effectuons pour votre compte, toutes les négociations et tractations
+                                      opérées afin que vous puissiez tenir le volant de la voiture de vos rêves, tout cela et plus encore ne seront des informations partagées
+                                        qu’entre vous et Car Legendary Monaco. La discrétion, comme notre efficacité et notre marque de fabrique. Et, vous vous en rendrez très 
+                                        vite compte en ce qui nous concerne, l’image de marque, dans notre entreprise, est primordiale.
 
-                        </p>
-                        <h3>RESEAU INTERNATIONAL</h3>
-                        
-                        <h2>recherche  <br/>mondiale de voiture <br/> sur-mesure </h2>
-                        <p className='p_blanc'>
-                        Monaco a bien des mérites, à commencer par la présence de Car Legendary Monaco sur son territoire. Alors, pour trouver votre bonheur,
-                         il nous faudra traverser la frontière.
+                                  </p>
+                                  <br/>
+                                  <br/>
+                                  <h3>RESEAU INTERNATIONAL</h3>
+                                  
+                                  <h2>recherche  <br/>mondiale de voiture <br/> sur-mesure </h2>
+                                  <p >
+                                  Monaco a bien des mérites, à commencer par la présence de Car Legendary Monaco sur son territoire. Alors, pour trouver votre bonheur,
+                                  il nous faudra traverser la frontière.
 
-                        La recherche de votre voiture de luxe est une quête qui se déroule sur le théâtre mondial. Dussions-nous entrer en contact avec les usines
-                         Ferrari de Maranello ou bien discourir en allemand pour commander la Porsche de vos rêves que nous le ferons sans hésiter.
+                                  La recherche de votre voiture de luxe est une quête qui se déroule sur le théâtre mondial. Dussions-nous entrer en contact avec les usines
+                                  Ferrari de Maranello ou bien discourir en allemand pour commander la Porsche de vos rêves que nous le ferons sans hésiter.
 
-                        Prestataire spécialiste de la vente de voitures de luxe, Car Legendary Monaco ne manquera évidemment pas de contacter ses fournisseurs dans 
-                        le monde entier.
-                        </p>
+                                  Prestataire spécialiste de la vente de voitures de luxe, Car Legendary Monaco ne manquera évidemment pas de contacter ses fournisseurs dans 
+                                  le monde entier.
+                                  </p>
 
-
+                            </div>
                     </div>
 
                     

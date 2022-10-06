@@ -31,8 +31,8 @@ function Navbar(props) {
                 <li className='nav-item'  onClick={()=>GoToPage()}>
                 <NavLink className="nav-link" to="/prestation">NOS PRESTATIONS</NavLink>
                 </li>
-                <li className='nav-item'  onClick={null}>
-                <NavLink className="nav-link" to="/#">IMPORTATION DE VEHICULES</NavLink>
+                <li className='nav-item'  onClick={()=>GoToPage()}>
+                <NavLink className="nav-link" to="/importation">IMPORTATION DE VEHICULES</NavLink>
                 </li>
                 <li className='nav-item'  onClick={null}>
                 <NavLink className="nav-link" to="/#">NOS VEHICULES</NavLink>

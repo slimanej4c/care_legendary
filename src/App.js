@@ -8,6 +8,7 @@ import {useLocation} from "react-router"
 import Contact from './Container/Contact'
 import Aprops from './Container/Aprops';
 import Prestation from './Container/Prestation';
+import Importation from './Container/Importation';
 function App(props) {
   const location=useLocation()
   return (
@@ -20,6 +21,7 @@ function App(props) {
      <Route exact path='/contact' element={<Contact/>}></Route>
      <Route exact path='/apropos' element={<Aprops/>}></Route>
      <Route exact path='/prestation' element={<Prestation/>}></Route>
+     <Route exact path='/importation' element={<Importation/>}></Route>
     
     
     </Routes>
