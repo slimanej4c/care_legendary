@@ -8,6 +8,8 @@ import { connect } from 'react-redux'
 import { ChangeVarRedux } from '../redux/var_redux'
 import { ChangeTopRedux } from '../redux/var_redux'
 import AnimatePage from '../Container/AnimatePage'
+
+import { FaPhoneAlt } from '@react-icons/all-files/fa/FaPhoneAlt';
 import './Layout.css'
 
 const Layout =(props) =>{
@@ -62,7 +64,9 @@ const Layout =(props) =>{
    <div className='container-layout'>
     <div className={show_contact}>
       <div className='contact-layout-div'>
-          <h4>tel +333 02 15 14</h4>
+        
+          <a href='tel:+333 02 15 14'> <FaPhoneAlt/>   +333 02 15 14</a>
+        
              
       </div>
 

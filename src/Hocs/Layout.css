@@ -9,8 +9,8 @@
   align-items: center;
   align-content: center;
 
-  top: 10%;
-  background-color: aqua;
+  margin-top:10px;
+ 
  z-index: 10;
 }
 
@@ -53,7 +53,8 @@
   align-items: center;
   align-content: center;
 }
-.contact-layout-div h4{
+.contact-layout-div a{
+  text-decoration: none;
   color: rgb(30, 30, 30);
   font-size: 20px;
   font-family: imported;
@@ -66,7 +67,7 @@
   align-items: center;
   align-content: center;
  
-  top: 20%;
+  margin-top:10px;
  z-index: 10;
 }
  .fixed-navbar-closed{
@@ -75,8 +76,9 @@
   justify-content: center;
   align-items: center;
   align-content: center;
+
  
-  top: 20%;
+  margin-top:10px;
  z-index: 10;
 }
 
@@ -158,7 +160,7 @@ z-index: 0;
 
       height: 9rem;
     }
-    .contact-layout-div h4{
+    .contact-layout-div a{
           font-size: 14px;
     }
     
