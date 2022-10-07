@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/care_legendary/static/css/main.5f2e3b44.css",
-    "main.js": "/care_legendary/static/js/main.7d4ec117.js",
+    "main.css": "/care_legendary/static/css/main.c2af3a07.css",
+    "main.js": "/care_legendary/static/js/main.06f9c4bb.js",
     "static/media/gif1.gif": "/care_legendary/static/media/gif1.aeb33bf3fd177993a80a.gif",
     "static/media/aprops1.jpg": "/care_legendary/static/media/aprops1.5acafbad1b02c0c0434f.jpg",
     "static/media/prestation1.jpg": "/care_legendary/static/media/prestation1.d21f9001e2466468780f.jpg",
@@ -17,11 +17,11 @@
     "static/media/ethnocentric rg.otf": "/care_legendary/static/media/ethnocentric rg.c575f23a7ad77c36bd67.otf",
     "static/media/logo.svg": "/care_legendary/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/care_legendary/index.html",
-    "main.5f2e3b44.css.map": "/care_legendary/static/css/main.5f2e3b44.css.map",
-    "main.7d4ec117.js.map": "/care_legendary/static/js/main.7d4ec117.js.map"
+    "main.c2af3a07.css.map": "/care_legendary/static/css/main.c2af3a07.css.map",
+    "main.06f9c4bb.js.map": "/care_legendary/static/js/main.06f9c4bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f2e3b44.css",
-    "static/js/main.7d4ec117.js"
+    "static/css/main.c2af3a07.css",
+    "static/js/main.06f9c4bb.js"
   ]
 }
