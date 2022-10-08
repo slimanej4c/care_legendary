@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/care_legendary/static/css/main.c2af3a07.css",
-    "main.js": "/care_legendary/static/js/main.06f9c4bb.js",
+    "main.css": "/care_legendary/static/css/main.e1684897.css",
+    "main.js": "/care_legendary/static/js/main.051ea1f1.js",
     "static/media/gif1.gif": "/care_legendary/static/media/gif1.aeb33bf3fd177993a80a.gif",
     "static/media/aprops1.jpg": "/care_legendary/static/media/aprops1.5acafbad1b02c0c0434f.jpg",
+    "static/media/ve1.jpg": "/care_legendary/static/media/ve1.c3b79c057528f8c430fa.jpg",
+    "static/media/home1.jpg": "/care_legendary/static/media/home1.5d39cb70107942d86572.jpg",
     "static/media/prestation1.jpg": "/care_legendary/static/media/prestation1.d21f9001e2466468780f.jpg",
     "static/media/home111.jpg": "/care_legendary/static/media/home111.758191c91890d2f61118.jpg",
     "static/media/prestation.jpg": "/care_legendary/static/media/prestation.1a8c08937438538ba4a1.jpg",
     "static/media/prestation3.jpg": "/care_legendary/static/media/prestation3.84f23a6633838b98ed9f.jpg",
     "static/media/impo1.jpg": "/care_legendary/static/media/impo1.3eefe8bfb3eaf3783eb4.jpg",
+    "static/media/motorama.ttf": "/care_legendary/static/media/motorama.10a52ce415ff2a73e9c9.ttf",
     "static/media/apropos3.jpg": "/care_legendary/static/media/apropos3.c54da22f475d9058baa9.jpg",
     "static/media/impo2.jpg": "/care_legendary/static/media/impo2.ad35df7f0f4b6b513048.jpg",
     "static/media/hemi.ttf": "/care_legendary/static/media/hemi.6591890a32e20c3e7392.ttf",
@@ -17,11 +20,11 @@
     "static/media/ethnocentric rg.otf": "/care_legendary/static/media/ethnocentric rg.c575f23a7ad77c36bd67.otf",
     "static/media/logo.svg": "/care_legendary/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/care_legendary/index.html",
-    "main.c2af3a07.css.map": "/care_legendary/static/css/main.c2af3a07.css.map",
-    "main.06f9c4bb.js.map": "/care_legendary/static/js/main.06f9c4bb.js.map"
+    "main.e1684897.css.map": "/care_legendary/static/css/main.e1684897.css.map",
+    "main.051ea1f1.js.map": "/care_legendary/static/js/main.051ea1f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2af3a07.css",
-    "static/js/main.06f9c4bb.js"
+    "static/css/main.e1684897.css",
+    "static/js/main.051ea1f1.js"
   ]
 }
