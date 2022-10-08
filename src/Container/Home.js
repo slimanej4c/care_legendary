@@ -22,14 +22,12 @@ function Home() {
 
       <div className='home-part1'>
            <div  className='home-part1-image'>
-           <Animate x={"--- VOTRE VOITURE DE LUXE SUR-MESURE ---"} />
+              <div className='home-part1-image-filtre'>
 
-               <h3>BIENVENUE CHEZ <br/> CAR LEGENDARY EXPERT EN VOITURE  DE LUXE</h3>
-               
-              
-               <h2>ACCOMPAGNEMENT EN ACHAT / VENTE <br/>DE VEHICULE HAUT DE GAMME SUR <br/> MONACO</h2>
-               <div className='home-part1-div'>
-
+                              <h3>BIENVENUE CHEZ <br/> CAR LEGENDARY EXPERT EN VOITURE  DE LUXE</h3>
+                              
+                              
+                              <h2>ACCOMPAGNEMENT EN ACHAT / VENTE <br/>DE VEHICULE HAUT DE GAMME SUR <br/> MONACO</h2>
                </div>
            </div>
           
@@ -82,7 +80,7 @@ function Home() {
 
                         
                         
-                                          <motion.div className='home-part3-image1' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{duration:2}}>
+                                          <motion.div className='home-part3-image1' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{duration:1}}>
 
                                                 <div className='home-part3-image-filtre'>
 
@@ -100,7 +98,7 @@ function Home() {
                                                 </div>
 
                                           </motion.div>
-                                          <motion.div className='home-part3-image2' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{duration:2}}>
+                                          <motion.div className='home-part3-image2' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{duration:1}}>
 
                                                 <div className='home-part3-image-filtre'>
 

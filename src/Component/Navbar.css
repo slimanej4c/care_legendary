@@ -35,7 +35,7 @@
     padding: 0;
     text-align: center;
     vertical-align: center;
-    margin-top: 0px;
+    margin-top: 15px;
     margin-left: 20px;
  
       }
@@ -48,10 +48,10 @@
 
 .nav-link{
     position: relative;
-  
+    font-family: broche;
     text-decoration: none; 
-    font-size: 12px;  
-  
+    font-size: 11px;  
+    font-weight: bold;
     color:  var(--bg_link);
     text-shadow: 0.2px 0.5px rgb(255, 255, 255);
 
@@ -60,24 +60,54 @@
 
 .nav-logo{
         position: absolute;
-        height:8rem;
-        width: 10rem;
+        height:7rem;
+        width: 8rem;
         background-image: url('../Assets/logo.png');
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         object-fit: cover;
         left: 50px;
-   
+    
         
         
     }
 
 
 
+    @media screen and (max-width: 1300px) {
+      .nav-item {
+      
+        margin-left: 15px;
+     
+          }
+    
+    
+    
+    .nav-link{
+       
+        font-size: 9px;  
+       
+    
+        
+          }
+    
+    .nav-logo{
+            
+            height:6rem;
+            width: 7rem;
+           
+            left: 10px;
+        
+            
+            
+        }
 
 
- @media screen and (max-width: 570px) {
+
+    }
+
+ @media screen and (max-width: 1100px) {
           
         .nav-container{
        
@@ -113,8 +143,21 @@
               .nav-link{
 
                 color: rgb(26, 0, 0);
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family: broche;
                 font-weight: bold;
                 font-size: 12px;
               }
     }
+
+    @media screen and (max-width: 750px) {
+          
+     
+   
+            .nav-link{
+
+              color: rgb(26, 0, 0);
+              font-family: broche;
+              font-weight: bold;
+              font-size: 10px;
+            }
+  }

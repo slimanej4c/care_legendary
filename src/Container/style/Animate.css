@@ -1,13 +1,13 @@
 
 
 .h-test{
-
-    font-size: 3rem;
-    font-weight: bold;
+    margin-top: 10%;
+    font-size: 2rem;
+    
     text-align: center;
     font-style: italic;
-    color:rgb(0, 0, 0);
-    font-family: imported;
+    color:rgb(220, 106, 0);
+    font-family: broche;
    
 }
 

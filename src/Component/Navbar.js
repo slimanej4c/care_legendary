@@ -34,7 +34,7 @@ function Navbar(props) {
                 <li className='nav-item'  onClick={()=>GoToPage()}>
                 <NavLink className="nav-link" to="/importation">IMPORTATION DE VEHICULES</NavLink>
                 </li>
-                <li className='nav-item'  onClick={null}>
+                <li className='nav-item'  onClick={()=>GoToPage()}>
                 <NavLink className="nav-link" to="/nos_vehicule">NOS VEHICULES</NavLink>
                 </li>
                 <li className='nav-item'  onClick={null}>

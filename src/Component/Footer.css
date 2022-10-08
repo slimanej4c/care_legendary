@@ -26,7 +26,7 @@
     
 }
 .footer-resume p{
-   font-family:broche;
+   font-family: 'Arial Narrow';
    color: var(--grey);
 }
 .footer-information{
@@ -112,19 +112,21 @@
 .footer-nav-item a{
         
         color: aliceblue;
+        font-size: 9px;
+
        
      
           }
 .footer-nav-link{
 
-        text-decoration: none; 
+        text-decoration:underline; 
         font-family:broche;
 
 
 
     }
 .footer-contact span {
-    font-family:broche;
+    font-family:'Segoe UI';
 }       
 @media screen and (max-width: 570px) {
 .footer-title {
@@ -132,14 +134,14 @@
         font-size: 14px;
     }
     .footer-resume p{
-    font-size: 12px;
+    font-size: 9px;
     }
     
     .footer-contact span{
-        font-size: 10px;
-        padding-left: 15px;
+        font-size: 9px;
+        padding-left: 20px;
         color: var(--grey);
-        margin-top: 10px;
+        margin-top: 5px;
      }
      .footer-nav-link{
 
