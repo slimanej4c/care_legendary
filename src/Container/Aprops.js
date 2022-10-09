@@ -19,7 +19,7 @@ function Aprops() {
 
             
             <div className='aprops-part2'>
-                <h3>--- À PROPOS ---</h3>
+        
                 <h2>A PROPOS DE CAR LEGENDARY</h2>
                 <p >
                 Parfois, quand une offre est simplement trop belle,
